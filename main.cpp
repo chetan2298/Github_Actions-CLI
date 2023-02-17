@@ -1,4 +1,5 @@
 #include <bits/stdc++.h>
+#include <iostream>
 using namespace std;
 
 pair<int, int> closestSum(vector<int> arr, int x)
@@ -45,7 +46,7 @@ int main()
     // //vector<int> ar2 = {10, 20, 30, 40};
     // int m = sizeof(ar1)/sizeof(ar1[0]);
     // int n = sizeof(ar2)/sizeof(ar2[0]);
-    //int x = 54;
+    // int x = 54;
     int p = 8;
     vector<int> j = kRotate(ar1, p);
     for (auto i : j)
