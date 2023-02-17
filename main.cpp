@@ -7,8 +7,7 @@ pair<int, int> closestSum(vector<int> arr, int x)
     int i = 0;
     int diff = INT_MAX;
     int j = arr.size() - 1;
-    pair<int, int> z;
-    while (i < j)
+    pair<int, int> z while (i < j)
     {
         if (abs(arr[i] + arr[j] - x) < diff)
         {
@@ -45,7 +44,7 @@ int main()
     // //vector<int> ar2 = {10, 20, 30, 40};
     // int m = sizeof(ar1)/sizeof(ar1[0]);
     // int n = sizeof(ar2)/sizeof(ar2[0]);
-    //int x = 54;
+    // int x = 54;
     int p = 8;
     vector<int> j = kRotate(ar1, p);
     for (auto i : j)
