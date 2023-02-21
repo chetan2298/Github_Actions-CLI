@@ -7,8 +7,9 @@ pair<int, int> closestSum(vector<int> arr, int x)
     // you code goes here
     int i = 0;
     int diff = INT_MAX;
-    int j = arr.size() - 1 pair<int, int> z;
-    while (i < j)
+    int j = arr.size() - 1;
+    pair<int, int> z while (i < j)
+
     {
         if (abs(arr[i] + arr[j] - x) < diff)
         {
